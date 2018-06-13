@@ -30,7 +30,7 @@ essere proposto tramite le [issues](https://github.com/italia/pandoc-docs2rst/is
 
 Sample documents are collected from the forum at docs.italia.it or
 from other public domain sources. Where not specified differently, the
-license is CC-BY 3.0 as written
+license is CC-BY 4.0 as written
 [here](https://developers.italia.it/en/note-legali/)
 
 ## Software License
