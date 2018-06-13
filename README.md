@@ -1,56 +1,25 @@
 
-# Comandi per la Conversione
+# Test di conversione per [`docs-italia-comandi-conversione`](https://github.com/italia/docs-italia-comandi-conversione)
 
-Qui trovate alcuni
-[comandi](https://it.wikipedia.org/wiki/Shell_(informatica)#Shell_testuali)
-per la conversione di documenti da un formato all'altro, sviluppati
-all'interno del progetto Docs Italia. Se non avete familiarità con il
-tema della conversione di formato,
-[questo](http://guida-docs-italia.readthedocs.io/it/latest/index/scrivere-un-documento.html#migrazione-su-docs-italia-di-documentazione-esistente)
-è un buon punto di partenza per imparare di più.
+Qui teniamo un set di documenti collezionato nel tempo, su cui testare
+i nostri scripts di conversione
 
-Il comando principale che forniamo è [`pandoc`](pandoc.org), qui
-incluso nella sua versione italiana modificata, il _fork
-italiano_. Ecco l'elenco completo dei comandi che otterrete dopo
-l'installazione:
+### Test driven development
 
-- [`pandoc`](pandoc.org)
-- [`pandoc-to-sphinx`](doc/comandi/pandoc-font-to-style.md) per
-  dividere un documento rST in più pagine da pubblicare
-- [`converti`](doc/comandi/converti.md) un'alternativa a `pandoc`
- consigliabile agli utenti più esperti, applica automaticamente le
- buone pratiche
-- [`pandoc-font-to-style`](doc/comandi/pandoc-font-to-style.md) per
-  tenere conto del carattere nella conversione
+Quando si vuole sviluppare una nuova funzionalità o migliorare un
+aspetto della conversione, è una buona idea seguire il metodo del
+_test driven development_. Si tratta di aggiungere a questo repo un
+documento contenente il problema che si desidera risolvere, dedicarsi
+allo sviluppo del software, ed infine verificare il miglioramento
+ottenuto sul documento di partenza.
 
-Prima di intraprendere l'uso di altri comandi consigliamo di
-familiarizzarsi con l'uso di [pandoc](pandoc.org). Qui trovate anche
-un breve testo sulle [buone pratiche di traduzione con
-pandoc](doc/buone-pratiche.md).
+### Test di regressione
 
-I comandi hanno nomi in inglese qualora ne sia immaginabile l'uso al
-di fuori del contesto italiano.
-
-#### Compatibilità
-
-Questi script richiedono un sistema operativo compatibile con Posix,
-il che include Linux e Mac. L'uso degli script con un sistema Windows
-è attualmente in fase di studio. 
-
-## Installazione
-
-Alcuni di questi comandi usano i nostri [filtri
-pandoc](https://github.com/italia/docs-italia-pandoc-filters), quindi
-è necessario [installare prima i
-filtri](https://github.com/italia/docs-italia-pandoc-filters#installazione).
-
-Puoi installare questo comando con
-[stack](https://docs.haskellstack.org/en/stable/README/#how-to-install)
-e `git` nei seguenti passi:
-
-    $ git clone https://github.com/italia/docs-italia-comandi-conversione.git
-    $ cd docs-italia-comandi-conversione
-    $ stack install
+Questi documenti sono utili per effettuare test di regressione su
+nuove versioni di pandoc o degli script di conversione. Il repo
+contiene alcuni script destinati a questo scopo, che sono stati
+estratti da un repo differente e richiedono al momento un
+aggiornamento.
 
 ## Contribuire
 
