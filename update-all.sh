@@ -4,7 +4,7 @@ do
     ls input/$s/* | while read f
     do
         echo $f
-        stack exec convert-docs-italia "$f"
+        converti "$f"
     done
 done
 
