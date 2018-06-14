@@ -21,6 +21,27 @@ contiene alcuni script destinati a questo scopo, che sono stati
 estratti da un repo differente e richiedono al momento un
 aggiornamento.
 
+### Statistiche sugli errori di sintassi
+
+Questo repo contiene uno script che permette di ottenere delle
+statistiche elementari sulla frequenza degli errori di sintassi
+riscontrabili convertendo questi documenti. Ecco un esempio d'uso:
+
+```bash
+docs-italia-test-conversione (master)*$ . syntax-check.sh 
+     32 risultato-conversione/18app/linee-guida-esercenti/documento.rst: (WARNING/2) Inline strong start-string without end-string.
+      1 risultato-conversione/singoli/Guida tecnica metriche software - per pubblicazione/documento.rst: (WARNING/2) Inline strong start-string without end-string.
+      1 risultato-conversione/singoli/portale-napoli/documento.rst: (WARNING/2) Bullet list ends without a blank line; unexpected unindent.
+      1 risultato-conversione/singoli/portale-napoli/documento.rst: (WARNING/2) Inline emphasis start-string without end-string.
+errors details in /tmp/syntax-check-errors
+```
+
+È una buona idea tenere una copia di questi risultati nella root del repo:
+
+```bash
+docs-italia-test-conversione (master)*$ mv /tmp/syntax-check-errors syntax-check-errors 
+```
+
 ## Contribuire
 
 Qualsiasi contributo o suggerimento è benvenuto e può
