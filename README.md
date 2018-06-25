@@ -2,7 +2,9 @@
 # Test di conversione per [`docs-italia-comandi-conversione`](https://github.com/italia/docs-italia-comandi-conversione)
 
 Qui teniamo un set di documenti collezionato nel tempo, su cui testare
-i nostri scripts di conversione
+i nostri scripts di conversione. I files in `risultato-conversione`
+sono stati ottenuti eseguendo `$ ./update-all.sh` dopo aver installato
+la versione `0.2.2` dei comandi di conversione.
 
 ### Test driven development
 

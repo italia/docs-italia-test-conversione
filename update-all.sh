@@ -1,3 +1,4 @@
+#!/bin/bash
 k=$( ls input )
 for s in ${k[@]}
 do
