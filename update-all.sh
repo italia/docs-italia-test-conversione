@@ -5,7 +5,7 @@ do
     ls input/$s/* | while read f
     do
         echo $f
-        converti "$f"
+        converti "$f" --dividi-sezioni --collegamento-normativa --celle-complesse
     done
 done
 
