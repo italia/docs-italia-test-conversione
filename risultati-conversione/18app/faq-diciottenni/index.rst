@@ -1,16 +1,8 @@
-Domande frequenti diciottenni  SISTEMA PUBBLICO DI IDENTITA’ DIGITALE
-======================================================================
-
-1. **Cos’è SPID?**
-
-SPID (*Sistema Pubblico di Identità Digitale*) è la tua nuova identità digitale composta da credenziali (nome utente e password) che puoi richiedere dal giorno del tuo diciottesimo compleanno e che dovrai utilizzare tutte le volte che vorrai accedere a 18app.
-
-Maggiori informazioni sul sito spid.gov.it
-
 .. toctree::
   :maxdepth: 2
   :caption: Indice dei contenuti
 
+  index/Domande-frequenti-diciottenni--SISTEMA-PUBBLICO-D.rst
   index/Perché-devo-avere-delle-credenziali-SPID-per-poter.rst
   index/Quali-documenti-mi-servono-per-poter-richiedere-SP.rst
   index/A-chi-mi-devo-rivolgere-e-cosa-devo-fare-per-otten.rst
