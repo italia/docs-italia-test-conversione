@@ -1,6 +1,0 @@
-WEB APP “18APP” LINEE GUIDA PER ESERCENTI
-=========================================
-
-WEB APP 18APP PAG. 2 DI 26
-
-LINEE GUIDA PER ESERCENTI

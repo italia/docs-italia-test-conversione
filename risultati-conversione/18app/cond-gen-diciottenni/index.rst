@@ -1,11 +1,12 @@
 .. toctree::
-  :maxdepth: 2
-  :caption: Indice dei contenuti
+   :maxdepth: 3
+   :caption: Indice dei contenuti
+   :numbered: 
 
-  index/Oggetto-del-servizio.rst
-  index/Accesso-ed-utilizzo-del-servizio-attraverso-identi.rst
-  index/Utilizzo-dei-buoni-di-spesa.rst
-  index/Cessione-a-terzi-dei-buoni.rst
-  index/Responsabilità-del-fornitore-del-servizio,-dei-for.rst
-  index/Privacy.rst
-  index/Disciplina-applicabile.rst
+   oggetto-del-servizio.rst
+   accesso-ed-utilizzo-del-servizio-attraverso-identi.rst
+   utilizzo-dei-buoni-di-spesa.rst
+   cessione-a-terzi-dei-buoni.rst
+   responsabilità-del-fornitore-del-servizio-dei-forn.rst
+   privacy.rst
+   disciplina-applicabile.rst

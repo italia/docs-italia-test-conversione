@@ -1,8 +1,10 @@
-e=/tmp/syntax-check-errors
+# nota che il file `partial.json` viene prodotto solo con l'opzione
+# `-v` di `converti`
+e=syntax-check-errors
 : > $e
-lt risultati-conversione/*/*/documento.rst | while read f
+find risultati-conversione -name "partial.json" | while read f
 do
-    rst2html "$f" > /dev/null 2>> $e
+    pandoc "$f" -t rst | rst2html > /dev/null 2>> $e
 done
 cut -d':' -f1,3 < $e | sort | uniq -c | sort -n
 echo -n "total errors: "

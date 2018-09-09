@@ -1,10 +1,11 @@
 *18app – infoprivacy*
 
 .. toctree::
-  :maxdepth: 2
-  :caption: Indice dei contenuti
+   :maxdepth: 3
+   :caption: Indice dei contenuti
+   :numbered: 
 
-  index/Privacy-policy.rst
-  index/Tipologia-dei-dati-e-finalità-del-trattamento.rst
-  index/Cookies.rst
-  index/Diritti-degli-interessati.rst
+   privacy-policy.rst
+   tipologia-dei-dati-e-finalità-del-trattamento.rst
+   cookies.rst
+   diritti-degli-interessati.rst

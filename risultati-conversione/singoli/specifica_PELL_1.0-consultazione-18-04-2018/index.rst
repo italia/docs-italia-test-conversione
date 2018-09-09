@@ -56,95 +56,102 @@
 |                                                                                                                                                                                                                                        |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Autore della specifica :**    | Gruppo di lavoro "progetto PELL - IP" composto da ENEA (Agenzia nazionale per le nuove tecnologie, l'energia e lo sviluppo economico sostenibile) e AgID (Agenzia per l'Italia Digitale).                                                                                               |
-|                                 |                                                                                                                                                                                                                                                                                         |
-|                                 | | Alla specifica hanno inoltre contribuito: Infratel Italia (in qualità di responsabile del SINFI).                                                                                                                                                                                     |
-|                                 | | Si evidenzia l'apporto fornito da Regione Lombardia alla definizione degli elementi informativi e strutturali del tema dedicato agli impianti di pubblica illuminazione.                                                                                                              |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                 |                                                                                                                                                                                                                                                                                         |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Riferimenti del documento :** | -  D.Lgs. 07/03/2005 n.82 “Codice dell'Amministrazione Digitale”                                                                                                                                                                                                                        |
-|                                 | -  Direttiva 2007/2/CE del 14 marzo 2007 (Direttiva INSPIRE)                                                                                                                                                                                                                            |
-|                                 | -  Direttiva 2014/61/UE del 15 maggio 2014                                                                                                                                                                                                                                              |
-|                                 | -  D.Lgs. del 15 febbraio 2016, n. 33 “Attuazione della direttiva 2014/61/UE del Parlamento europeo e del Consiglio, del 15 maggio 2014, recante misure volte a ridurre i costi dell’installazione di reti di comunicazione elettronica ad alta velocità” (G.U. n. 57 del 9 marzo 2016) |
-|                                 | -  Decreto del Ministro dello Sviluppo Economico del 11 maggio 2016 - Istituzione del SINFI - Sistema informativo nazionale federato delle infrastrutture (GU Serie Generale n.139 del 16-6-2016)                                                                                       |
-|                                 | -                                                                                                                                                                                                                                                                                       |
-|                                 |                                                                                                                                                                                                                                                                                         |
-|                                 |    L. 27 dicembre 2017, n. 205 (Legge di Bilancio 2018) - Art. 1 commi 697-700 per interventi di efficientamento energetico e di adeguamento normativo sugli impianti di illuminazione pubblica.                                                                                        |
-|                                 |                                                                                                                                                                                                                                                                                         |
-|                                 | -  Norma nazionale UNI 11630:2016 “Luce e illuminazione – Criteri per la stesura del progetto illuminotecnico”                                                                                                                                                                          |
-|                                 | -  Regole tecniche per la definizione delle specifiche di contenuto dei database geotopografici (DM 10 novembre 2011 - Gazzetta Ufficiale n. 48 del 27 febbraio 2012, supplemento ordinario n. 37) cui si rimanda per ogni ulteriore approfondimento, in particolare:                   |
-|                                 | -  Allegato 1 - Catalogo dei dati territoriali - Specifiche di contenuto per i DataBase geotopografici                                                                                                                                                                                  |
-|                                 | -  Allegato 2 - il modello GeoUML - Regole di interpretazione delle specifiche di contenuto per i DataBase Geotopografici.                                                                                                                                                              |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                 |                                                                                                                                                                                                                                                                                         |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Stato :**                     | versione 1.0 in consultazione                                                                                                                                                                                                                                                           |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                 |                                                                                                                                                                                                                                                                                         |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Scopo :**                     | Il documento definisce le specifiche tecniche di contenuto per la formazione, la documentazione e la fruibilità dei Database georeferenziati relativi all'illuminazione pubblica nazionale.                                                                                             |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                 |                                                                                                                                                                                                                                                                                         |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Campo di applicazione :**     | Produzione, acquisizione e validazione dei dati relativi al progetto PELL                                                                                                                                                                                                               |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                 |                                                                                                                                                                                                                                                                                         |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Autore della specifica :**    | Gruppo di lavoro "progetto PELL - IP" composto da ENEA (Agenzia nazionale per le nuove tecnologie, l'energia e lo sviluppo economico sostenibile) e AgID (Agenzia per l'Italia Digitale).                                                                                              |
+|                                 |                                                                                                                                                                                                                                                                                        |
+|                                 | | Alla specifica hanno inoltre contribuito: Infratel Italia (in qualità di responsabile del SINFI).                                                                                                                                                                                    |
+|                                 | | Si evidenzia l'apporto fornito da Regione Lombardia alla definizione degli elementi informativi e strutturali del tema dedicato agli impianti di pubblica illuminazione.                                                                                                             |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                 |                                                                                                                                                                                                                                                                                        |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Riferimenti del documento :** | - D.Lgs. 07/03/2005 n.82 "Codice dell'Amministrazione Digitale"                                                                                                                                                                                                                        |
+|                                 |                                                                                                                                                                                                                                                                                        |
+|                                 | - Direttiva 2007/2/CE del 14 marzo 2007 (Direttiva INSPIRE)                                                                                                                                                                                                                            |
+|                                 |                                                                                                                                                                                                                                                                                        |
+|                                 | - Direttiva 2014/61/UE del 15 maggio 2014                                                                                                                                                                                                                                              |
+|                                 |                                                                                                                                                                                                                                                                                        |
+|                                 | - D.Lgs. del 15 febbraio 2016, n. 33 "Attuazione della direttiva 2014/61/UE del Parlamento europeo e del Consiglio, del 15 maggio 2014, recante misure volte a ridurre i costi dell'installazione di reti di comunicazione elettronica ad alta velocità" (G.U. n. 57 del 9 marzo 2016) |
+|                                 |                                                                                                                                                                                                                                                                                        |
+|                                 | - Decreto del Ministro dello Sviluppo Economico del 11 maggio 2016 - Istituzione del SINFI - Sistema informativo nazionale federato delle infrastrutture (GU Serie Generale n.139 del 16-6-2016)                                                                                       |
+|                                 |                                                                                                                                                                                                                                                                                        |
+|                                 | - L. 27 dicembre 2017, n. 205 (Legge di Bilancio 2018) - Art. 1 commi 697-700 per interventi di efficientamento energetico e di adeguamento normativo sugli impianti di illuminazione pubblica.                                                                                        |
+|                                 |                                                                                                                                                                                                                                                                                        |
+|                                 | - Norma nazionale UNI 11630:2016 "Luce e illuminazione – Criteri per la stesura del progetto illuminotecnico"                                                                                                                                                                          |
+|                                 |                                                                                                                                                                                                                                                                                        |
+|                                 | - Regole tecniche per la definizione delle specifiche di contenuto dei database geotopografici (DM 10 novembre 2011 - Gazzetta Ufficiale n. 48 del 27 febbraio 2012, supplemento ordinario n. 37) cui si rimanda per ogni ulteriore approfondimento, in particolare:                   |
+|                                 |                                                                                                                                                                                                                                                                                        |
+|                                 | • Allegato 1 - Catalogo dei dati territoriali - Specifiche di contenuto per i DataBase geotopografici                                                                                                                                                                                  |
+|                                 |                                                                                                                                                                                                                                                                                        |
+|                                 | • Allegato 2 - il modello GeoUML - Regole di interpretazione delle specifiche di contenuto per i DataBase Geotopografici.                                                                                                                                                              |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                 |                                                                                                                                                                                                                                                                                        |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Stato :**                     | versione 1.0 in consultazione                                                                                                                                                                                                                                                          |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                 |                                                                                                                                                                                                                                                                                        |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Scopo :**                     | Il documento definisce le specifiche tecniche di contenuto per la formazione, la documentazione e la fruibilità dei Database georeferenziati relativi all'illuminazione pubblica nazionale.                                                                                            |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                 |                                                                                                                                                                                                                                                                                        |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Campo di applicazione :**     | Produzione, acquisizione e validazione dei dati relativi al progetto PELL                                                                                                                                                                                                              |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                 |                                                                                                                                                                                                                                                                                        |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 **Indice**
 
-`Premessa 5 <#premessa>`__
+:ref:`premessa`
 
 `1. Introduzione 6 <#_Toc512547207>`__
 
 `2. STRATO: 00 Informazioni geodetiche e fotogrammetriche 8 <#_Toc512547208>`__
 
-`TEMA: Informazioni cartografiche e metainformazione 0002 8 <#tema-informazioni-cartografiche-e-metainformazione-0002>`__
+:ref:`tema-informazioni-cartografiche-e-metainformazione-0002`
 
-`CLASSE: Ambito omogeneo per la metainformazione (META - 000202) 8 <#classe-ambito-omogeneo-per-la-metainformazione-meta---000202>`__
+:ref:`classe-ambito-omogeneo-per-la-metainformazione-meta---000202`
 
-`3. TEMA: Illuminazione pubblica 0708 10 <#tema-illuminazione-pubblica-0708>`__
+:ref:`tema-illuminazione-pubblica-0708`
 
-`3.1 CLASSE: Pod – anagrafica del punto di prelievo dell'elettricità (POD_A - 070802) 11 <#classe-pod-anagrafica-del-punto-di-prelievo-dellelettricità-pod_a---070802>`__
+:ref:`classe-pod-anagrafica-del-punto-di-prelievo-dellelettricità-pod_a---070802`
 
-`3.2 CLASSE: Pod - consumi (POD_C - 070803) 13 <#classe-pod---consumi-pod_c---070803>`__
+:ref:`classe-pod---consumi-pod_c---070803`
 
-`3.3 CLASSE: Quadro elettrico anagrafica (QE_A - 070805) 15 <#classe-quadro-elettrico-anagrafica-qe_a---070805>`__
+:ref:`classe-quadro-elettrico-anagrafica-qe_a---070805`
 
-`3.4 CLASSE: Dati tecnici quadro elettrico (QE_DT - 070806) 18 <#classe-dati-tecnici-quadro-elettrico-qe_dt---070806>`__
+:ref:`classe-dati-tecnici-quadro-elettrico-qe_dt---070806`
 
-`3.5 CLASSE: Dati funzionamento e gestione del quadro elettrico (QE_FG - 070807) 20 <#classe-dati-funzionamento-e-gestione-del-quadro-elettrico-qe_fg---070807>`__
+:ref:`classe-dati-funzionamento-e-gestione-del-quadro-elettrico-qe_fg---070807`
 
-`3.6 CLASSE: Quadro elettrico manutenzione (QE_M - 070808) 23 <#classe-quadro-elettrico-manutenzione-qe_m---070808>`__
+:ref:`classe-quadro-elettrico-manutenzione-qe_m---070808`
 
-`3.7 CLASSE: Punto luce – installazione (PL_IS - 070809) 25 <#classe-punto-luce-installazione-pl_is---070809>`__
+:ref:`classe-punto-luce-installazione-pl_is---070809`
 
-`3.8 CLASSE: Punto luce – apparecchio (PL_AP - 070810) 28 <#classe-punto-luce-apparecchio-pl_ap---070810>`__
+:ref:`classe-punto-luce-apparecchio-pl_ap---070810`
 
-`3.9 CLASSE: Punto luce – sorgente luminosa (PL_SL - 070811) 33 <#classe-punto-luce-sorgente-luminosa-pl_sl---070811>`__
+:ref:`classe-punto-luce-sorgente-luminosa-pl_sl---070811`
 
-`3.10 CLASSE: Zone omogenee (ZO - 070812) 35 <#classe-zone-omogenee-zo---070812>`__
+:ref:`classe-zone-omogenee-zo---070812`
 
-`4. DATATYPE 43 <#datatype>`__
+:ref:`datatype`
 
-`DATATYPE: Metadati di istanza (MET_IST - 81) 43 <#datatype-metadati-di-istanza-met_ist---81>`__
+:ref:`datatype-metadati-di-istanza-met_ist---81`
 
-`DOMINIO: Fonte del dato (FONTE - 0100) 43 <#dominio-fonte-del-dato-fonte---0100>`__
+:ref:`dominio-fonte-del-dato-fonte---0100`
 
-`DOMINIO: Scala (SCALA - 0400) 43 <#dominio-scala-scala---0400>`__
+:ref:`dominio-scala-scala---0400`
 
-`DOMINIO DEL VALORE NULLO 44 <#dominio-del-valore-nullo>`__
+:ref:`dominio-del-valore-nullo`
 
 .. toctree::
-  :maxdepth: 2
-  :caption: Indice dei contenuti
+   :maxdepth: 3
+   :caption: Indice dei contenuti
+   :numbered: 
 
-  index/Premessa.rst
-  index/TEMA:-Illuminazione-pubblica-0708.rst
-  index/DATATYPE.rst
-  index/DOMINIO-DEL-VALORE-NULLO.rst
+   premessa.rst
+   tema-illuminazione-pubblica-0708.rst
+   datatype.rst
+   dominio-del-valore-nullo.rst
 
 .. |image0| image:: ./media/image1.png
    :width: 8.07083in

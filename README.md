@@ -2,26 +2,24 @@
 # Test di conversione per [`docs-italia-comandi-conversione`](https://github.com/italia/docs-italia-comandi-conversione)
 
 Qui teniamo un set di documenti collezionato nel tempo, su cui testare
-i nostri scripts di conversione. I files in `risultato-conversione`
-sono stati ottenuti eseguendo `$ ./update-all.sh` dopo aver installato
-la versione `0.2.2` dei comandi di conversione.
-
-### Test driven development
-
-Quando si vuole sviluppare una nuova funzionalità o migliorare un
-aspetto della conversione, è una buona idea seguire il metodo del
-_test driven development_. Si tratta di aggiungere a questo repo un
-documento contenente il problema che si desidera risolvere, dedicarsi
-allo sviluppo del software, ed infine verificare il miglioramento
-ottenuto sul documento di partenza.
+i nostri scripts di conversione. I files in `risultato-conversione` e
+`syntax-check-errors` sono stati ottenuti eseguendo `$ . test-releases.sh`
 
 ### Test di regressione
 
 Questi documenti sono utili per effettuare test di regressione su
 nuove versioni di pandoc o degli script di conversione. Il repo
-contiene alcuni script destinati a questo scopo, che sono stati
-estratti da un repo differente e richiedono al momento un
-aggiornamento.
+contiene alcuni script destinati a questo scopo, che lancio usando `.`
+(alias per `source`):
+
+```bash
+$ . update-all.sh # run `converti` on all tests
+$ . build-all-sphinx.sh # build with sphinx and preview with firefox
+```
+
+La funzione in `function-build-existing-sphinx` è una funzione che ho
+trovato comoda da lanciare nelle cartelle dei risultati di `converti`,
+per un test rapido
 
 ### Statistiche sugli errori di sintassi
 
@@ -35,14 +33,42 @@ docs-italia-test-conversione (master)*$ . syntax-check.sh
       1 risultato-conversione/singoli/Guida tecnica metriche software - per pubblicazione/documento.rst: (WARNING/2) Inline strong start-string without end-string.
       1 risultato-conversione/singoli/portale-napoli/documento.rst: (WARNING/2) Bullet list ends without a blank line; unexpected unindent.
       1 risultato-conversione/singoli/portale-napoli/documento.rst: (WARNING/2) Inline emphasis start-string without end-string.
-errors details in /tmp/syntax-check-errors
+errors details in syntax-check-errors
 ```
 
-È una buona idea tenere una copia di questi risultati nella root del repo:
+Questi errori di sintassi non sono sempre una metrica prioritaria in
+quanto sono prodotti creando un unico file `.rst`. I nostri utenti
+usano invece i diversi files creati da `converti` attraverso
+`pandoc-to-sphinx`.
 
-```bash
-docs-italia-test-conversione (master)*$ mv /tmp/syntax-check-errors syntax-check-errors 
+### Ambiente di test per nuove releases
+
+Potete replicare il mio ambiente di sviluppo clonando questo e gli
+altri repos di Docs Italia fianco a fianco nella stessa cartella, per
+esempio:
+
 ```
+repos/
+ docs-italia-comandi-conversione/
+ docs-italia-pandoc-filters/
+ docs-italia-test-conversione/
+```
+
+Con questa struttura di directory potete usare lo script
+`test-releases.sh` per installare e testare nuovi tag prima del push e
+della release. In questo modo possiamo fare riferimento alle versioni
+nello script per conoscere lo stato di aggiornamento dei files nel
+repository. È anche più facile verificare che un risultato sia
+consistente anche quando eseguito in sistemi differenti.
+
+### Test driven development
+
+Quando si vuole sviluppare una nuova funzionalità o migliorare un
+aspetto della conversione, è una buona idea seguire il metodo del
+_test driven development_. Si tratta di aggiungere a questo repo un
+documento contenente il problema che si desidera risolvere, dedicarsi
+allo sviluppo del software, ed infine verificare il miglioramento
+ottenuto sul documento di partenza.
 
 ## Contribuire
 

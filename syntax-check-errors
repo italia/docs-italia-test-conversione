@@ -1,35 +1,12 @@
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:689: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:689: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:689: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:689: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:735: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:735: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:735: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:735: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:735: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:735: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:735: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:735: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:779: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:779: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:779: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:779: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:837: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:837: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:837: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:837: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:907: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:907: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:907: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:907: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:907: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:907: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:907: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:907: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:1006: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:1006: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:1006: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/18app/linee-guida-esercenti/documento.rst:1006: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/singoli/Guida tecnica metriche software - per pubblicazione/documento.rst:5: (WARNING/2) Inline strong start-string without end-string.
-risultato-conversione/singoli/portale-napoli/documento.rst:32: (WARNING/2) Bullet list ends without a blank line; unexpected unindent.
-risultato-conversione/singoli/portale-napoli/documento.rst:32: (WARNING/2) Inline emphasis start-string without end-string.
+<stdin>:63: (WARNING/2) Duplicate explicit target name: "se-nel-momento-dellacquisto-effettuo-uno-sconto-ad-un-ragazzo-che-presenta-pertanto-un-buono-di-importo-superiore-come-mi-regolo-posso-restituirgli-il-resto-in-denaro".
+<stdin>:178: (WARNING/2) Duplicate explicit target name: "devo-registrare-al-servizio-un-museo-come-devo-operare".
+<stdin>:576: (WARNING/2) Duplicate explicit target name: "ho-un-tetto-massimo-di-fatturazione-sui-singoli-beni-venduti-cè-una-tetto-massimo-totale-di-fatturazione-che-non-posso-superare".
+<stdin>:10: (WARNING/2) Duplicate explicit target name: "le-fatture-così-emesse-non-hanno-rilevanza-ai-fini-fiscali-essendo-levento-fiscale-già-regolato-mediante-il-biglietto-o-la-ricevuta-fiscale-emessa-dallesercente-allatto-dellaccettazione-del-buono-ma-servono-unicamente-a-consentire-il-riscontro-dei-buoni-validati-prima-di-procedere-al-loro-pagamento.".
+<stdin>:10: (WARNING/2) Duplicate explicit target name: "al-fine-di-limitare-la-possibilità-di-incorrere-in-errore-in-fase-di-caricamento-ed-invio-della-fattura-si-consiglia-di-utilizzare-il-portale-web-per-la-fatturazione-elettronica-disponibile-gratuitamente-allindirizzo-httpivaservizi.agenziaentrate.gov.it".
+<stdin>:10: (WARNING/2) Duplicate explicit target name: "le-presenti-linee-guida-sono-state-redatte-utilizzando-la-citata-piattaforma-web.-altri-software-disponibili-per-la-compilazione-delle-fatture-elettroniche-potrebbero-riportare-campi-e-funzioni-diverse-in-ogni-caso-i-campi-essenziali".
+<stdin>:129: (WARNING/2) Duplicate explicit target name: "valorizzare-i-campi-come-descritto-di-seguito-dati-reali".
+<stdin>:163: (SEVERE/4) Title level inconsistent:
+
+Quindi cliccare su >Vai a Dati Fattura
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Exiting due to level-4 (SEVERE) system message.

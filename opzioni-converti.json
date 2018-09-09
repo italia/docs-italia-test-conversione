@@ -1,4 +1,5 @@
 {
-  "collegamento-normattiva": true,
-  "celle-complesse": true
+  "celle-complesse": true,
+  "sovrascrivi": true,
+  "mostra-comandi": true
 }

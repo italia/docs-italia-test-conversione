@@ -1,0 +1,17 @@
+.. _assistenza-portale-utenti:
+
+5. Assistenza Portale Utenti
+============================
+
+|banner assistenza Utenti|
+
+Per l'assistenza si possono contattare i riferimenti suindicati. Per agevolare l'assistenza e rispondere in maniera rapida alle eventuali perplessità è stato creato un gruppo su Workplace [1]_ basta richiedere l'invito all'indirizzo: https://fb.me/g/yJjMAKNX/bG1ENLxK
+
+Nel gruppo si potranno trovare oltre ai documenti già presenti nel Portale Utente, screenshot e mappe mentali relativi allo sviluppo dei workflow, inoltre verrà fornita tutta l'assistenza necessaria al corretto utilizzo del Portale.
+
+.. [1]
+    `Cos'è Workplace di Facebook? <https://it-it.facebook.com/help/work/791147577614860>`__
+
+.. |banner assistenza Utenti| image:: ./media/image21.jpeg
+   :width: 6.26944in
+   :height: 1.47847in

@@ -1,11 +1,12 @@
 .. toctree::
-  :maxdepth: 2
-  :caption: Indice dei contenuti
+   :maxdepth: 3
+   :caption: Indice dei contenuti
+   :numbered: 
 
-  index/Oggetto-del-servizio.rst
-  index/Registrazione-ed-utilizzo-del-servizio.rst
-  index/Incasso-dei-buono-di-spesa.rst
-  index/Vigilanza-e-sanzioni.rst
-  index/Responsabilità-del-fornitore-del-servizio-e-dei-fo.rst
-  index/Privacy.rst
-  index/Disciplina-applicabile.rst
+   oggetto-del-servizio.rst
+   registrazione-ed-utilizzo-del-servizio.rst
+   incasso-dei-buono-di-spesa.rst
+   vigilanza-e-sanzioni.rst
+   responsabilità-del-fornitore-del-servizio-e-dei-fo.rst
+   privacy.rst
+   disciplina-applicabile.rst

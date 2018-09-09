@@ -5,10 +5,11 @@
 7 novembre 2017
 
 .. toctree::
-  :maxdepth: 2
-  :caption: Indice dei contenuti
+   :maxdepth: 3
+   :caption: Indice dei contenuti
+   :numbered: 
 
-  index/Introduzione.rst
-  index/Passo-2.rst
-  index/Passo-4.rst
-  index/Passo-5.rst
+   introduzione.rst
+   passo-2.rst
+   passo-4.rst
+   passo-5.rst
