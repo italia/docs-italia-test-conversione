@@ -70,6 +70,13 @@ documento contenente il problema che si desidera risolvere, dedicarsi
 allo sviluppo del software, ed infine verificare il miglioramento
 ottenuto sul documento di partenza.
 
+### Note sui documenti singoli
+
+- `specifica_PELL_1.0-consultazione-18-04-2018.docx` contiene tabelle
+  con celle che spaziano
+- `Indice Linee Guida condiviso newpu-2.docx` utile per testare i
+  riferimenti interni al documento
+
 ## Contribuire
 
 Qualsiasi contributo o suggerimento è benvenuto e può
